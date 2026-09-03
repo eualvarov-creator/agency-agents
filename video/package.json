@@ -1,0 +1,26 @@
+{
+	"name": "agency-video",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Remotion video project for the Agency — programmatic video rendering in React",
+	"scripts": {
+		"dev": "remotion studio",
+		"studio": "remotion studio",
+		"render": "remotion render",
+		"render:all": "remotion render AgencyIntro out/agency-intro.mp4",
+		"still": "remotion still",
+		"upgrade": "remotion upgrade",
+		"typecheck": "tsc --noEmit"
+	},
+	"dependencies": {
+		"@remotion/cli": "4.0.520",
+		"react": "19.2.3",
+		"react-dom": "19.2.3",
+		"remotion": "4.0.520"
+	},
+	"devDependencies": {
+		"@types/react": "19.2.7",
+		"@types/react-dom": "19.2.3",
+		"typescript": "5.9.3"
+	}
+}

@@ -1,0 +1,6 @@
+node_modules/
+out/
+.remotion/
+
+# The root .gitignore drops lockfiles repo-wide; keep this one so renders are reproducible.
+!package-lock.json
